@@ -24,8 +24,8 @@ int main(void)
 	/*printf("fact 를 구할 수를 입력하시오:");
 	scanf("%lf", &n);*/
 
-	double result_iter = factorial_iter(30);
-	double result_rec = factorial_rec(30);
+	double result_iter = factorial_iter(5);
+	double result_rec = factorial_rec(5);
 
 	printf("result_iter:%lf\n", result_iter);
 	printf("result_rec:%lf\n", result_rec);
